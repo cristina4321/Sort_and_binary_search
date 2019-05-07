@@ -1,7 +1,7 @@
 public class sort_and_binary_search {
     public static void main(String[] args) {
 
-        int i=0,var;
+        int i,var;
         int [] array = new int [] {8,4,9,1,2,222};
         int prima_pozitie=0, ultima_pozitie =array.length - 1 , mijloc = (prima_pozitie+ultima_pozitie)/2, caut = 2;
         boolean aranjare;
@@ -20,7 +20,6 @@ public class sort_and_binary_search {
                 }
             }
         }while(aranjare);
-
 
         while (prima_pozitie <= ultima_pozitie) {
             if (array[mijloc] < caut)
